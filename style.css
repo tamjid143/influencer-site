@@ -1,0 +1,81 @@
+/* Common Styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* Navbar start */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: black;
+}
+#logo-button {
+  font-size: 24px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  padding: 0.1em;
+}
+.nav-bar a:hover {
+  color: coral;
+}
+/* Navbar End */
+
+/*Banner Start */
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.half-width {
+  width: 50%;
+  padding: 2%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 200px;
+  width: 500px;
+}
+.half-width img {
+  height: 414px;
+  width: 440px;
+}
+.half-width h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.half-width p {
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.half-width a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(250, 127, 86);
+  padding: 10px 40px;
+  border-radius: 25px;
+}
+.fa-solid {
+  margin-left: 10px;
+}
+.half-width-bg {
+  background: url(./images/Circle\ design.svg);
+}
+/* Banner End */
+/* Logo Items Start */
+.logo-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+/* Logo Items End */
