@@ -78,3 +78,28 @@ body {
   padding: 1em;
 }
 /* Logo Items End */
+/* Cards Start */
+.popular-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checked {
+  color: orange;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.card {
+  height: 476px;
+  width: 329px;
+}
+.image {
+  padding: 10px;
+}
+.image img {
+  width: 100%;
+}
+/* Card End */
